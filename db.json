@@ -1,0 +1,28 @@
+{
+  "quiz": [
+    {
+      "question": "Who is the father of the nation",
+      "option1": "Sachin",
+      "option2": "Your Father",
+      "option3": "Shibu",
+      "correctOption": "Gandhi",
+      "id": 1
+    },
+    {
+      "question": "Ceo Of google",
+      "option1": "Susan Wojensky",
+      "option2": "Shibu ",
+      "option3": "your uncle",
+      "correctOption": "Sunder pichai",
+      "id": 2
+    },
+    {
+      "question": "Where does Sundar Live",
+      "option1": "Afghanistan",
+      "option2": "Europe",
+      "option3": "Your bathroom",
+      "correctOption": "Washington",
+      "id": 3
+    }
+  ]
+}
