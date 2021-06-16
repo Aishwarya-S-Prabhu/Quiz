@@ -1,28 +1,76 @@
 {
   "quiz": [
     {
-      "question": "Who is the father of the nation",
-      "option1": "Sachin",
-      "option2": "Your Father",
-      "option3": "Shibu",
-      "correctOption": "Gandhi",
+      "question": "Where did Binu Adimali took birth",
+      "option1": "Adoor",
+      "option2": "Pallimoola",
+      "option3": "Adimaali",
+      "option4": "Vadakara",
+      "correctOption": "c",
       "id": 1
     },
     {
-      "question": "Ceo Of google",
-      "option1": "Susan Wojensky",
-      "option2": "Shibu ",
-      "option3": "your uncle",
-      "correctOption": "Sunder pichai",
+      "question": "Ceo of google who ?",
+      "option1": "Susan Wojanski",
+      "option2": "Shibu",
+      "option3": "Sundar Pichakkaaran",
+      "option4": "Again Shibu",
+      "correctOption": "c",
       "id": 2
     },
     {
-      "question": "Where does Sundar Live",
-      "option1": "Afghanistan",
-      "option2": "Europe",
-      "option3": "Your bathroom",
-      "correctOption": "Washington",
+      "question": "Where did Ayyappans mom's unniyappam fell",
+      "option1": "Sea",
+      "option2": "Cee",
+      "option3": "See",
+      "option4": "C",
+      "correctOption": "a",
       "id": 3
+    },
+    {
+      "question": "Where does Sundar live",
+      "option1": "under your bed",
+      "option2": "Washington",
+      "option3": "Dryington",
+      "option4": "Dancington",
+      "correctOption": "b",
+      "id": 4
+    },
+    {
+      "question": "Who is Obama",
+      "option1": "Astronaut",
+      "option2": "Swimmer",
+      "option3": "Boxer",
+      "option4": "President",
+      "correctOption": "d",
+      "id": 5
+    },
+    {
+      "question": "Where does vikings live now",
+      "option1": "Asgard",
+      "option2": "Bitterguard",
+      "option3": "Norway",
+      "option4": "Yesrway",
+      "correctOption": "c",
+      "id": 6
+    }
+  ],
+  "score": [
+    {
+      "score": 0,
+      "id": 1
+    },
+    {
+      "score": 1,
+      "id": 2
+    },
+    {
+      "score": 6,
+      "id": 3
+    },
+    {
+      "score": 0,
+      "id": 4
     }
   ]
 }
