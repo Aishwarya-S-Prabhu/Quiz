@@ -2,9 +2,9 @@
 import { context } from '../Helpers/Context'
 import { useContext, useEffect } from 'react'
 
-const EndScreen = ({quizData , addscore , highScoreData}) => {
+const EndScreen = ({playerName , addscore , highScoreData}) => {
     useEffect(() => {
-        addscore({score})
+        addscore({score , playerName})
         
     })
 

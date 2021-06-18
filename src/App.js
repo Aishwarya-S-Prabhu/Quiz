@@ -5,6 +5,8 @@ import { useState } from "react";
 import { context } from "./Helpers/Context"
 import AddQuestions from "./Components/AddQuestions";
 import { useEffect } from "react";
+import LeaderBoard from "./Components/LeaderBoard";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
   const [score , setScore] = useState(0)
   const[bestScore , setBestScore] = useState([])
   const[newScore , setNewScore] = useState(0)
+  const [playerName , setPlayeerName] = useState("")
 
   useEffect(() =>{
     const func = async() =>{
@@ -35,6 +38,7 @@ function App() {
   }
 
   const addScore = async (finalScore) =>{
+    if(finalScore.playerName === "") finalScore.playerName = "Anonymous"
     await fetch('http://localhost:8000/score',{
       method : 'POST',
       headers : { 'Content-type' : 'application/json'},
@@ -60,10 +64,11 @@ function App() {
   return (
     <div className='main'>
       <context.Provider value ={{setGameState , setScore , score}}>
-        {gameState === "menu" && <Menu />}
+        {gameState === "menu" && <Menu playerName={playerName} setPlayerName={setPlayeerName}/>}
         {gameState === "quiz" && <Quiz quizData={quizThings}/>}
-        {gameState === "endScreen" && <EndScreen quizData={quizThings} addscore={addScore} highScoreData={newScore} />}
+        {gameState === "endScreen" && <EndScreen quizData={quizThings} playerName={playerName} addscore={addScore} highScoreData={newScore} />}
         {gameState === "addQuestions" && <AddQuestions addQuestion ={addQuestion} />}
+        {gameState === "leaderboard" && <LeaderBoard scores = {bestScore}/>}
       </context.Provider>
     </div>
   );

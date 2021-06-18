@@ -53,23 +53,36 @@
       "option4": "Yesrway",
       "correctOption": "c",
       "id": 6
+    },
+    {
+      "question": "new Question",
+      "option1": "NEw",
+      "option2": "NeW",
+      "option3": "neW",
+      "option4": "New",
+      "correctOption": "d",
+      "id": 7
     }
   ],
   "score": [
     {
-      "score": 0,
+      "score": 5,
+      "playerName": "Shibu",
       "id": 1
     },
     {
-      "score": 1,
+      "score": 7,
+      "playerName": "Sugunan",
       "id": 2
     },
     {
-      "score": 6,
+      "score": 2,
+      "playerName": "Maradhakavalli",
       "id": 3
     },
     {
-      "score": 0,
+      "score": 1,
+      "playerName": "Anonymous",
       "id": 4
     }
   ]
