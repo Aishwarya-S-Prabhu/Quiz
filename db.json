@@ -71,7 +71,7 @@
       "id": 1
     },
     {
-      "score": 7,
+      "score": 3,
       "playerName": "Sugunan",
       "id": 2
     },
@@ -84,6 +84,21 @@
       "score": 1,
       "playerName": "Anonymous",
       "id": 4
+    },
+    {
+      "score": 4,
+      "playerName": "TestRun",
+      "id": 5
+    },
+    {
+      "score": 2,
+      "playerName": "Escalated One",
+      "id": 6
+    },
+    {
+      "score": 6,
+      "playerName": "RefreshTest",
+      "id": 7
     }
   ]
 }

@@ -6,12 +6,14 @@ const EndScreen = ({playerName , addscore , highScoreData}) => {
     useEffect(() => {
         addscore({score , playerName})
         
+        
     })
 
     const {setGameState , score} = useContext(context)
     
     const quizDone = () =>{
         setGameState("menu")
+        window.location.reload()
     }
     return (
         <div>

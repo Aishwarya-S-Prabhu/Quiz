@@ -4,6 +4,7 @@ import { useContext } from "react"
 
 const LeaderBoard = ({scores}) => {
     const {setGameState} = useContext(context)
+  
 
     var changedScore = [...scores]
     for(var i=0;i<changedScore.length;i++){

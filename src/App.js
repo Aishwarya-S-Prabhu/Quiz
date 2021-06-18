@@ -28,6 +28,8 @@ function App() {
     }
     func()
   },[])
+  
+
 
   const addQuestion = async (ques) => {
         await fetch('http://localhost:8000/quiz',{
@@ -60,6 +62,7 @@ function App() {
     }
     cheat = false
   }
+
 
   return (
     <div className='main'>
