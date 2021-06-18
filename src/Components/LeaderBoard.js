@@ -15,8 +15,10 @@ const LeaderBoard = ({scores}) => {
             }
         }
     }  
+    var count =1
     const scoredata = changedScore.map(obj =>{
         return(  <tr key={obj.id}>
+           <td>{count++ + "."}</td>
            <td>{obj.playerName}</td>
            <td>{obj.score}</td>
          </tr>)
@@ -32,6 +34,7 @@ const LeaderBoard = ({scores}) => {
                         <table className='table table-dark table-bordered'>
                             <thead>
                                 <tr style={{color : 'steelblue'}}>
+                                    <th>Rank</th>
                                     <th>Player Name</th>
                                     <th>Score</th>
                                 </tr>
